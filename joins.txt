@@ -1,0 +1,7 @@
+different types of joins available in SQL: هناك أنواع مختلفة من الاتصالات في SQL:
+INNER JOIN : returns rows when there is a match in both tables. INNER JOIN : إرجاع الصفوف عندما يتطابق كلا الجدولين.
+LEFT JOIN : returns all rows from the left table, even if there are no matches in the right table. LEFT JOIN : حتى في حالة عدم وجود تطابق في الجدول الأيسر ، يتم إرجاع جميع الصفوف في الجدول الأيسر.
+RIGHT JOIN : returns all rows from the right table, even if there are no matches in the left table. RIGHT JOIN : حتى في حالة عدم وجود تطابق في الجدول الأيسر ، يتم إرجاع جميع الصفوف في الجدول الأيمن.
+FULL JOIN : It combines the results of both left and right outer joins. FULL JOIN : يجمع نتائج الوصلات الخارجية اليمنى واليسرى.
+The joined table will contain all records from both the tables and fill in NULLs for missing matches on either side. سيحتوي الجدول المرتبط على جميع السجلات الموجودة في الجدولين ، ويتم تعبئته بـ NULL للمطابقات المفقودة على كلا الجانبين.
+SELF JOIN : is used to join a table to itself as if the table were two tables, temporarily renaming at least one table in the SQL statement. SELF JOIN : يستخدم لتوصيل جدول بنفسه ، كما لو كان الجدول عبارة عن جدولين ، قم بإعادة تسمية جدول واحد على الأقل مؤقتًا في عبارة SQL.
